@@ -56,68 +56,82 @@ markdown_extensions:
 edit_uri: edit/main/docs/
 nav:
 - Home: index.md
-- Foundations:
-  - Mathematics:
-    - Applied Mathematics: foundations/mathematics/applied-mathematics/index.md
-    - Calculus: foundations/mathematics/calculus/index.md
-    - Differential Equations: foundations/mathematics/differential-equations/index.md
-    - Discrete Mathematics: foundations/mathematics/discrete-mathematics/index.md
-    - Foundations: foundations/mathematics/foundations/index.md
-    - Linear Algebra: foundations/mathematics/linear-algebra/index.md
-    - Optimization: foundations/mathematics/optimization/index.md
-    - Probability: foundations/mathematics/probability/index.md
-    - Statistics: foundations/mathematics/statistics/index.md
-  - Computer Science: foundations/computer-science/index.md
-  - Logic: foundations/logic/index.md
-  - Philosophy: foundations/philosophy/index.md
-  - Systems Thinking: foundations/systems-thinking/index.md
 - Analytical Frameworks:
   - Game Theory: analytical-frameworks/game-theory/index.md
   - Rational Choice Theory: analytical-frameworks/rational-choice-theory/index.md
   - Decision Theory: analytical-frameworks/decision-theory/index.md
   - Conflict Resolution: analytical-frameworks/conflict-resolution/index.md
-- Politics:
-  - Comparative Politics: politics/comparative-politics/index.md
-  - Governance: politics/governance/index.md
-  - Institutions: politics/institutions/index.md
-  - Political Theory: politics/political-theory/index.md
-  - Public Policy: politics/public-policy/index.md
 - Dashboard: dashboard/index.md
-- Economics:
-  - Macro: economics/macro/index.md
-  - Micro: economics/micro/index.md
-  - Monetary Policy: economics/monetary-policy/index.md
-  - Political Economy: economics/political-economy/index.md
-  - Trade: economics/trade/index.md
-- Finance:
-  - Macro: finance/macro/index.md
-  - Markets: finance/markets/index.md
-  - Quantitative: finance/quantitative/index.md
-  - Risk: finance/risk/index.md
-- Geopolitics:
-  - Energy Security: geopolitics/energy-security/index.md
-  - Geography: geopolitics/geography/index.md
-  - Maritime Power: geopolitics/maritime-power/index.md
-  - Trade Routes: geopolitics/trade-routes/index.md
 - Intelligence:
   - Economic: intelligence/economic/index.md
   - Financial: intelligence/financial/index.md
   - Geopolitical: intelligence/geopolitical/index.md
+  - Scientific: intelligence/scientific/index.md
   - Technology: intelligence/technology/index.md
-- International Relations:
-  - Security Studies:
-    - Nuclear Strategy: international-relations/security-studies/nuclear-strategy/index.md
-    - Deterrence Theory: international-relations/security-studies/deterrence-theory/index.md
-    - Military Strategy: international-relations/security-studies/military-strategy/index.md
-    - Arms Control: international-relations/security-studies/arms-control/index.md
-    - Intelligence Studies: international-relations/security-studies/intelligence-studies/index.md
-    - Cyber Conflict: international-relations/security-studies/cyber-conflict/index.md
-    - Nuclear Proliferation: international-relations/security-studies/proliferation/index.md
-    - Escalation Management: international-relations/security-studies/escalation-management/index.md
-  - Diplomacy: international-relations/diplomacy/index.md
-  - Great Power Competition: international-relations/great-power-competition/index.md
-  - International Organizations: international-relations/international-organizations/index.md
-  - Theories: international-relations/theories/index.md
+- Knowledge:
+  - Foundations:
+    - Mathematics:
+      - Applied Mathematics: knowledge/foundations/mathematics/applied-mathematics/index.md
+      - Calculus: knowledge/foundations/mathematics/calculus/index.md
+      - Differential Equations: knowledge/foundations/mathematics/differential-equations/index.md
+      - Discrete Mathematics: knowledge/foundations/mathematics/discrete-mathematics/index.md
+      - Foundations: knowledge/foundations/mathematics/foundations/index.md
+      - Linear Algebra: knowledge/foundations/mathematics/linear-algebra/index.md
+      - Optimization: knowledge/foundations/mathematics/optimization/index.md
+      - Probability: knowledge/foundations/mathematics/probability/index.md
+      - Statistics: knowledge/foundations/mathematics/statistics/index.md
+    - Computer Science: knowledge/foundations/computer-science/index.md
+    - Logic: knowledge/foundations/logic/index.md
+    - Philosophy: knowledge/foundations/philosophy/index.md
+    - Systems Thinking: knowledge/foundations/systems-thinking/index.md
+  - Politics:
+    - Comparative Politics: knowledge/politics/comparative-politics/index.md
+    - Governance: knowledge/politics/governance/index.md
+    - Institutions: knowledge/politics/institutions/index.md
+    - Political Theory: knowledge/politics/political-theory/index.md
+    - Public Policy: knowledge/politics/public-policy/index.md
+  - Economics:
+    - Macro: knowledge/economics/macro/index.md
+    - Micro: knowledge/economics/micro/index.md
+    - Monetary Policy: knowledge/economics/monetary-policy/index.md
+    - Political Economy: knowledge/economics/political-economy/index.md
+    - Trade: knowledge/economics/trade/index.md
+  - Finance:
+    - Macro: knowledge/finance/macro/index.md
+    - Markets: knowledge/finance/markets/index.md
+    - Quantitative: knowledge/finance/quantitative/index.md
+    - Risk: knowledge/finance/risk/index.md
+  - Geopolitics:
+    - Energy Security: knowledge/geopolitics/energy-security/index.md
+    - Geography: knowledge/geopolitics/geography/index.md
+    - Maritime Power: knowledge/geopolitics/maritime-power/index.md
+    - Trade Routes: knowledge/geopolitics/trade-routes/index.md
+  - International Relations:
+    - Security Studies:
+      - Nuclear Strategy: knowledge/international-relations/security-studies/nuclear-strategy/index.md
+      - Deterrence Theory: knowledge/international-relations/security-studies/deterrence-theory/index.md
+      - Military Strategy: knowledge/international-relations/security-studies/military-strategy/index.md
+      - Arms Control: knowledge/international-relations/security-studies/arms-control/index.md
+      - Intelligence Studies: knowledge/international-relations/security-studies/intelligence-studies/index.md
+      - Cyber Conflict: knowledge/international-relations/security-studies/cyber-conflict/index.md
+      - Nuclear Proliferation: knowledge/international-relations/security-studies/proliferation/index.md
+      - Escalation Management: knowledge/international-relations/security-studies/escalation-management/index.md
+    - Diplomacy: knowledge/international-relations/diplomacy/index.md
+    - Great Power Competition: knowledge/international-relations/great-power-competition/index.md
+    - International Organizations: knowledge/international-relations/international-organizations/index.md
+    - Theories: knowledge/international-relations/theories/index.md
+  - Technology:
+    - Data: knowledge/technology/data/index.md
+    - Programming: knowledge/technology/programming/index.md
+    - Software Engineering: knowledge/technology/software-engineering/index.md
+    - Systems: knowledge/technology/systems/index.md
+- Learning:
+  - Economics: learning/economics/index.md
+  - Mathematics: learning/mathematics/index.md
+  - Programming: learning/programming/index.md
+  - Research Methods: learning/research-methods/index.md
+  - Statistics: learning/statistics/index.md
+  - Writing: learning/writing/index.md
 - Notes:
   - Daily Notes: notes/daily-notes/index.md
   - Reading Notes: notes/reading-notes/index.md
@@ -131,8 +145,3 @@ nav:
   - Literature: research/literature/index.md
   - Methods: research/methods/index.md
   - Writing: research/writing/index.md
-- Technology:
-  - Data: technology/data/index.md
-  - Programming: technology/programming/index.md
-  - Software Engineering: technology/software-engineering/index.md
-  - Systems: technology/systems/index.md
