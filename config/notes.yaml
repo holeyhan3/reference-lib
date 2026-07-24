@@ -1,0 +1,139 @@
+types:
+
+  concept:
+    template: docs/templates/concept.md
+
+  book:
+    template: docs/templates/book-note.md
+
+  paper:
+    template: docs/templates/paper-note.md
+
+  cheatsheet:
+    template: docs/templates/cheatsheet.md
+
+  project:
+    template: docs/templates/project.md
+
+
+categories:
+
+  foundations:
+
+    mathematics:
+
+      calculus:
+        path: foundations/mathematics/calculus
+
+      linear-algebra:
+        path: foundations/mathematics/linear-algebra
+
+      probability:
+        path: foundations/mathematics/probability
+
+      statistics:
+        path: foundations/mathematics/statistics
+
+
+    computer-science:
+
+      algorithms:
+        path: foundations/computer-science/algorithms
+
+      data-structures:
+        path: foundations/computer-science/data-structures
+
+
+    logic:
+
+      reasoning:
+        path: foundations/logic/reasoning
+
+      critical-thinking:
+        path: foundations/logic/critical-thinking
+
+
+  technology:
+
+    programming:
+
+      python:
+        path: technology/programming/python
+
+      julia:
+        path: technology/programming/julia
+
+      javascript:
+        path: technology/programming/javascript
+
+
+    data:
+
+      databases:
+        path: technology/data/databases
+
+      machine-learning:
+        path: technology/data/machine-learning
+
+
+  finance:
+
+    markets:
+
+      equities:
+        path: finance/markets/equities
+
+      options:
+        path: finance/markets/options
+
+
+    quantitative:
+
+      modeling:
+        path: finance/quantitative/modeling
+
+      statistics:
+        path: finance/quantitative/statistics
+
+
+  economics:
+
+    macro:
+
+      business-cycles:
+        path: economics/macro/business-cycles
+
+      gdp:
+        path: economics/macro/gdp
+
+
+    micro:
+
+      markets:
+        path: economics/micro/markets
+
+      incentives:
+        path: economics/micro/incentives
+
+
+  geopolitics:
+
+    geography:
+
+      borders:
+        path: geopolitics/geography/borders
+
+      strategic-location:
+        path: geopolitics/geography/strategic-location
+      
+      maritime-power:
+        path: geopolitics/maritime-power
+
+
+    energy-security:
+
+      oil-gas:
+        path: geopolitics/energy-security/oil-gas
+
+      resources:
+        path: geopolitics/energy-security/resources

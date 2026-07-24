@@ -1,0 +1,21 @@
+# MkDocs
+/site/
+
+# Python
+.mypy_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version
+
+# uv
+.venv/
+
+# Environment
+.env
+
+# Editor
+.vscode/
+
+# macOS
+.DS_Store

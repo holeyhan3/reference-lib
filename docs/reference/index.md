@@ -1,0 +1,53 @@
+- 
+
+# References:
+- Bash:
+  - [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
+  - [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
+- Unix:
+  - [Unix Tutorial for Beginners](https://www.tutorialspoint.com/unix/index.htm)
+  - [Unix/Linux Command Reference](https://ss64.com/bash/)
+- Linux:
+  - [Linux Documentation Project](https://www.tldp.org/)
+  - [Linux Command](https://linuxcommand.org/)
+- Assembly:
+  - [x86 Assembly Guide](https://www.cs.virginia.edu/~evans/cs216/guides/x86.html)
+  - [Assembly Language Programming](https://www.tutorialspoint.com/assembly_programming/index.htm)
+- Cpp: 
+  - [C++ Reference](https://en.cppreference.com/w/)
+  - [C++ Programming Language](https://isocpp.org/)
+- 
+- Python:
+  - [Python Documentation](https://docs.python.org/3/)
+  - [Python Standard Library](https://docs.python.org/3/library/index.html)
+- Markdown:
+  - [Markdown Guide](https://www.markdownguide.org/)
+- Html:
+  - [HTML Living Standard](https://html.spec.whatwg.org/multipage/)
+  - [MDN Web Docs: HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS:
+  - [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+  - [MDN Web Docs: CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- JavaScript:
+  - [JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+  - [MDN Web Docs: JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- Java:
+  - [Java SE Documentation](https://docs.oracle.com/en/java/javase/)
+  - [Java Platform, Standard Edition API Specification](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)
+- Rust:
+  - [Rust Documentation](https://doc.rust-lang.org/)
+  - [The Rust Programming Language Book](https://doc.rust-lang.org/book/)
+- Julia:
+  - [Julia Documentation](https://docs.julialang.org/)
+  - [Julia Standard Library](https://docs.julialang.org/en/v1/stdlib/)
+- Git:
+  - [Git Documentation](https://git-scm.com/doc)
+  - [Pro Git Book](https://git-scm.com/book/en/v2)
+- Sql:
+  - [SQL Reference](https://www.w3schools.com/sql/sql_ref_keywords.asp)
+  - [SQL Tutorial](https://www.w3schools.com/sql/)
+- MathMl:
+  - [MathML](https://developer.mozilla.org/en-US/docs/Web/MathML)
+  - [MathML Reference](https://developer.mozilla.org/en-US/docs/Web/MathML/Element)
+- MkDocs:
+    - [MkDocs](https://www.mkdocs.org/user-guide/writing-your-docs/)

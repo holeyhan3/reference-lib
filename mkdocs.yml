@@ -1,0 +1,147 @@
+site_name: Reference Library
+site_description: Personal knowledge base and study notes
+site_author: Hans
+repo_name: reference-lib
+theme:
+  name: material
+  plugins:
+  - search
+  - roamlinks
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.expand
+  - navigation.top
+  - search.highlight
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    toggle:
+      icon: material/weather-sunny
+      name: Light mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    toggle:
+      icon: material/weather-night
+      name: Dark mode
+markdown_extensions:
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.highlight
+- toc:
+    permalink: true
+nav:
+- Home: index.md
+- Foundations:
+  - Overview: foundations/index.md
+  - Mathematics:
+    - Overview: foundations/mathematics/index.md
+    - Applied Mathematics:
+      - Overview: foundations/mathematics/applied-mathematics/index.md
+    - Calculus:
+      - Overview: foundations/mathematics/calculus/index.md
+    - Differential Equations:
+      - Overview: foundations/mathematics/differential-equations/index.md
+    - Discrete Mathematics:
+      - Overview: foundations/mathematics/discrete-mathematics/index.md
+    - Foundations:
+      - Overview: foundations/mathematics/foundations/index.md
+    - Linear Algebra:
+      - Overview: foundations/mathematics/linear-algebra/index.md
+    - Optimization:
+      - Overview: foundations/mathematics/optimization/index.md
+    - Probability:
+      - Overview: foundations/mathematics/probability/index.md
+    - Statistics:
+      - Overview: foundations/mathematics/statistics/index.md
+  - Computer Science:
+    - Overview: foundations/computer-science/index.md
+  - Logic:
+    - Overview: foundations/logic/index.md
+  - Philosophy:
+    - Overview: foundations/philosophy/index.md
+  - Systems Thinking:
+    - Overview: foundations/systems-thinking/index.md
+- Economics:
+  - Overview: economics/index.md
+  - Macro:
+    - Overview: economics/macro/index.md
+  - Micro:
+    - Overview: economics/micro/index.md
+  - Monetary Policy:
+    - Overview: economics/monetary-policy/index.md
+  - Political Economy:
+    - Overview: economics/political-economy/index.md
+  - Trade:
+    - Overview: economics/trade/index.md
+- Finance:
+  - Overview: finance/index.md
+  - Macro:
+    - Overview: finance/macro/index.md
+  - Markets:
+    - Overview: finance/markets/index.md
+  - Quantitative:
+    - Overview: finance/quantitative/index.md
+  - Risk:
+    - Overview: finance/risk/index.md
+- Geopolitics:
+  - Overview: geopolitics/index.md
+  - Energy Security:
+    - Overview: geopolitics/energy-security/index.md
+  - Geography:
+    - Overview: geopolitics/geography/index.md
+  - Great Power Competition:
+    - Overview: geopolitics/great-power-competition/index.md
+  - Maritime Power:
+    - Overview: geopolitics/maritime-power/index.md
+  - Trade Routes:
+    - Overview: geopolitics/trade-routes/index.md
+- International Relations:
+  - Overview: international-relations/index.md
+  - Diplomacy:
+    - Overview: international-relations/diplomacy/index.md
+  - International Organizations:
+    - Overview: international-relations/international-organizations/index.md
+  - Security Studies:
+    - Overview: international-relations/security-studies/index.md
+  - Theories:
+    - Overview: international-relations/theories/index.md
+- Politics:
+  - Overview: politics/index.md
+  - Comparative Politics:
+    - Overview: politics/comparative-politics/index.md
+  - Governance:
+    - Overview: politics/governance/index.md
+  - Institutions:
+    - Overview: politics/institutions/index.md
+  - Political Theory:
+    - Overview: politics/political-theory/index.md
+  - Public Policy:
+    - Overview: politics/public-policy/index.md
+- Projects:
+  - Overview: projects/index.md
+- Reference:
+  - Overview: reference/index.md
+  - Cheatsheets:
+    - Overview: reference/cheatsheets/index.md
+- Research:
+  - Overview: research/index.md
+  - Analysis:
+    - Overview: research/analysis/index.md
+  - Literature:
+    - Overview: research/literature/index.md
+  - Methods:
+    - Overview: research/methods/index.md
+  - Writing:
+    - Overview: research/writing/index.md
+- Technology:
+  - Overview: technology/index.md
+  - Data:
+    - Overview: technology/data/index.md
+  - Programming:
+    - Overview: technology/programming/index.md
+  - Software Engineering:
+    - Overview: technology/software-engineering/index.md
+  - Systems:
+    - Overview: technology/systems/index.md
