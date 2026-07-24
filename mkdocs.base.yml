@@ -12,19 +12,31 @@ site_dir: site
 
 use_directory_urls: true
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
-  name: material
   features:
     - navigation.sections
     - navigation.expand
+    - navigation.indexes
     - navigation.top
     - search.highlight
+    - content.code.copy
+
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
+      primary: indigo
+      accent: blue
       toggle:
         icon: material/weather-sunny
         name: Light mode
+
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate

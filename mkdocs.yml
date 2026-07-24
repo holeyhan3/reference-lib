@@ -7,20 +7,27 @@ repo_url: https://github.com/holeyhan3/reference-lib
 docs_dir: docs
 site_dir: site
 use_directory_urls: true
+extra_css:
+- stylesheets/extra.css
 theme:
-  name: material
   features:
-  - navigation.tabs
   - navigation.sections
   - navigation.expand
+  - navigation.indexes
   - navigation.top
   - search.highlight
+  - content.code.copy
   palette:
   - media: '(prefers-color-scheme: light)'
-    scheme: default
+  - scheme: default
+    primary: indigo
+    accent: blue
     toggle:
       icon: material/weather-sunny
       name: Light mode
+  - scheme: slate
+    primary: indigo
+    accent: blue
   - media: '(prefers-color-scheme: dark)'
     scheme: slate
     toggle:
@@ -39,114 +46,68 @@ markdown_extensions:
 nav:
 - Home: index.md
 - Foundations:
-  - Overview: foundations/index.md
+  - foundations/index.md
   - Mathematics:
-    - Overview: foundations/mathematics/index.md
-    - Applied Mathematics:
-      - Overview: foundations/mathematics/applied-mathematics/index.md
-    - Calculus:
-      - Overview: foundations/mathematics/calculus/index.md
-    - Differential Equations:
-      - Overview: foundations/mathematics/differential-equations/index.md
-    - Discrete Mathematics:
-      - Overview: foundations/mathematics/discrete-mathematics/index.md
-    - Foundations:
-      - Overview: foundations/mathematics/foundations/index.md
-    - Linear Algebra:
-      - Overview: foundations/mathematics/linear-algebra/index.md
-    - Optimization:
-      - Overview: foundations/mathematics/optimization/index.md
-    - Probability:
-      - Overview: foundations/mathematics/probability/index.md
-    - Statistics:
-      - Overview: foundations/mathematics/statistics/index.md
-  - Computer Science:
-    - Overview: foundations/computer-science/index.md
-  - Logic:
-    - Overview: foundations/logic/index.md
-  - Philosophy:
-    - Overview: foundations/philosophy/index.md
-  - Systems Thinking:
-    - Overview: foundations/systems-thinking/index.md
-- Economics:
-  - Overview: economics/index.md
-  - Macro:
-    - Overview: economics/macro/index.md
-  - Micro:
-    - Overview: economics/micro/index.md
-  - Monetary Policy:
-    - Overview: economics/monetary-policy/index.md
-  - Political Economy:
-    - Overview: economics/political-economy/index.md
-  - Trade:
-    - Overview: economics/trade/index.md
-- Finance:
-  - Overview: finance/index.md
-  - Macro:
-    - Overview: finance/macro/index.md
-  - Markets:
-    - Overview: finance/markets/index.md
-  - Quantitative:
-    - Overview: finance/quantitative/index.md
-  - Risk:
-    - Overview: finance/risk/index.md
-- Geopolitics:
-  - Overview: geopolitics/index.md
-  - Energy Security:
-    - Overview: geopolitics/energy-security/index.md
-  - Geography:
-    - Overview: geopolitics/geography/index.md
-  - Great Power Competition:
-    - Overview: geopolitics/great-power-competition/index.md
-  - Maritime Power:
-    - Overview: geopolitics/maritime-power/index.md
-  - Trade Routes:
-    - Overview: geopolitics/trade-routes/index.md
-- International Relations:
-  - Overview: international-relations/index.md
-  - Diplomacy:
-    - Overview: international-relations/diplomacy/index.md
-  - International Organizations:
-    - Overview: international-relations/international-organizations/index.md
-  - Security Studies:
-    - Overview: international-relations/security-studies/index.md
-  - Theories:
-    - Overview: international-relations/theories/index.md
+    - foundations/mathematics/index.md
+    - Applied Mathematics: foundations/mathematics/applied-mathematics/index.md
+    - Calculus: foundations/mathematics/calculus/index.md
+    - Differential Equations: foundations/mathematics/differential-equations/index.md
+    - Discrete Mathematics: foundations/mathematics/discrete-mathematics/index.md
+    - Foundations: foundations/mathematics/foundations/index.md
+    - Linear Algebra: foundations/mathematics/linear-algebra/index.md
+    - Optimization: foundations/mathematics/optimization/index.md
+    - Probability: foundations/mathematics/probability/index.md
+    - Statistics: foundations/mathematics/statistics/index.md
+  - Computer Science: foundations/computer-science/index.md
+  - Logic: foundations/logic/index.md
+  - Philosophy: foundations/philosophy/index.md
+  - Systems Thinking: foundations/systems-thinking/index.md
 - Politics:
-  - Overview: politics/index.md
-  - Comparative Politics:
-    - Overview: politics/comparative-politics/index.md
-  - Governance:
-    - Overview: politics/governance/index.md
-  - Institutions:
-    - Overview: politics/institutions/index.md
-  - Political Theory:
-    - Overview: politics/political-theory/index.md
-  - Public Policy:
-    - Overview: politics/public-policy/index.md
-- Projects:
-  - Overview: projects/index.md
+  - politics/index.md
+  - Comparative Politics: politics/comparative-politics/index.md
+  - Governance: politics/governance/index.md
+  - Institutions: politics/institutions/index.md
+  - Political Theory: politics/political-theory/index.md
+  - Public Policy: politics/public-policy/index.md
+- Economics:
+  - economics/index.md
+  - Macro: economics/macro/index.md
+  - Micro: economics/micro/index.md
+  - Monetary Policy: economics/monetary-policy/index.md
+  - Political Economy: economics/political-economy/index.md
+  - Trade: economics/trade/index.md
+- Finance:
+  - finance/index.md
+  - Macro: finance/macro/index.md
+  - Markets: finance/markets/index.md
+  - Quantitative: finance/quantitative/index.md
+  - Risk: finance/risk/index.md
+- Geopolitics:
+  - geopolitics/index.md
+  - Energy Security: geopolitics/energy-security/index.md
+  - Geography: geopolitics/geography/index.md
+  - Great Power Competition: geopolitics/great-power-competition/index.md
+  - Maritime Power: geopolitics/maritime-power/index.md
+  - Trade Routes: geopolitics/trade-routes/index.md
+- International Relations:
+  - international-relations/index.md
+  - Diplomacy: international-relations/diplomacy/index.md
+  - International Organizations: international-relations/international-organizations/index.md
+  - Security Studies: international-relations/security-studies/index.md
+  - Theories: international-relations/theories/index.md
+- Projects: projects/index.md
 - Reference:
-  - Overview: reference/index.md
-  - Cheatsheets:
-    - Overview: reference/cheatsheets/index.md
+  - reference/index.md
+  - Cheatsheets: reference/cheatsheets/index.md
 - Research:
-  - Overview: research/index.md
-  - Analysis:
-    - Overview: research/analysis/index.md
-  - Literature:
-    - Overview: research/literature/index.md
-  - Methods:
-    - Overview: research/methods/index.md
-  - Writing:
-    - Overview: research/writing/index.md
+  - research/index.md
+  - Analysis: research/analysis/index.md
+  - Literature: research/literature/index.md
+  - Methods: research/methods/index.md
+  - Writing: research/writing/index.md
 - Technology:
-  - Overview: technology/index.md
-  - Data:
-    - Overview: technology/data/index.md
-  - Programming:
-    - Overview: technology/programming/index.md
-  - Software Engineering:
-    - Overview: technology/software-engineering/index.md
-  - Systems:
-    - Overview: technology/systems/index.md
+  - technology/index.md
+  - Data: technology/data/index.md
+  - Programming: technology/programming/index.md
+  - Software Engineering: technology/software-engineering/index.md
+  - Systems: technology/systems/index.md

@@ -1,0 +1,20 @@
+/* Increase content width */
+.md-grid {
+    max-width: 1400px;
+}
+
+/* Improve headings */
+.md-typeset h1 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+/* Better tables */
+.md-typeset table:not([class]) {
+    font-size: 0.9rem;
+}
+
+/* Sidebar width */
+.md-sidebar {
+    width: 320px;
+}

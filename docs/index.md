@@ -29,3 +29,24 @@ Technical documentation and lookup material.
 
 ### Research
 Methods, analysis, and notes.
+
+
+---
+
+## Explore
+
+<div class="grid cards">
+
+-   :material-calculator:
+    
+    **Mathematics**
+
+    Theory, proofs, and applied methods.
+
+-   :material-chart-line:
+    
+    **Finance**
+
+    Markets, trading, and quantitative analysis.
+
+</div>

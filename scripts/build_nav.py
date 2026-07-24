@@ -1,17 +1,30 @@
 from pathlib import Path
+from typing import Any
 
 import yaml
 
 from scripts.utils.discovery import discover_categories
 from scripts.utils.paths import DOCS
 
+
 BASE_CONFIG = Path("mkdocs.base.yml")
 MKDOCS = Path("mkdocs.yml")
 
 
-def build_nav_tree(tree):
+NavEntry = dict[str, Any]
 
-    nav = []
+
+def build_nav_tree(
+    tree: dict[str, Any],
+) -> list[NavEntry]:
+    """
+    Convert discovered category tree into MkDocs nav format.
+
+    Categories with children become sections.
+    Category index.md files become landing pages.
+    """
+
+    nav: list[NavEntry] = []
 
     for name, node in tree.items():
 
@@ -20,39 +33,55 @@ def build_nav_tree(tree):
             name.replace("-", " ").title(),
         )
 
-        section = []
-
-        path = node.get("path")
+        path = node.get(
+            "path"
+        )
 
         children = node.get(
             "children",
             {},
         )
 
-        if path:
-
-            section.append(
-                {
-                    "Overview": f"{path}/index.md"
-                }
-            )
-
+        # Category with children
         if children:
 
-            section.extend(
+            items: list[Any] = []
+
+            # Add category landing page first
+            if path:
+
+                items.append(
+                    f"{path}/index.md"
+                )
+
+            # Add child categories
+            items.extend(
                 build_nav_tree(children)
             )
 
-        nav.append(
-            {
-                title: section
-            }
-        )
+            nav.append(
+                {
+                    title: items
+                }
+            )
+
+        # Leaf category
+        elif path:
+
+            nav.append(
+                {
+                    title: f"{path}/index.md"
+                }
+            )
 
     return nav
 
 
 def update_mkdocs():
+    """
+    Generate mkdocs.yml from mkdocs.base.yml
+    and discovered documentation categories.
+    """
 
     categories = discover_categories(
         DOCS
@@ -88,7 +117,12 @@ def update_mkdocs():
 
 
 def main():
+    """
+    CLI entry point.
+    """
+
     update_mkdocs()
+
     print(
         "mkdocs.yml generated."
     )
