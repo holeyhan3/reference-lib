@@ -105,6 +105,12 @@ nav:
     - Logic: knowledge/foundations/logic/index.md
     - Philosophy: knowledge/foundations/philosophy/index.md
     - Systems Thinking: knowledge/foundations/systems-thinking/index.md
+  - Analytical Frameworks:
+    - knowledge/analytical-frameworks/index.md
+    - Game Theory: knowledge/analytical-frameworks/game-theory/index.md
+    - Rational Choice Theory: knowledge/analytical-frameworks/rational-choice-theory/index.md
+    - Decision Theory: knowledge/analytical-frameworks/decision-theory/index.md
+    - Conflict Resolution: knowledge/analytical-frameworks/conflict-resolution/index.md
   - Politics:
     - knowledge/politics/index.md
     - Comparative Politics: knowledge/politics/comparative-politics/index.md
@@ -153,11 +159,5 @@ nav:
     - Programming: knowledge/technology/programming/index.md
     - Software Engineering: knowledge/technology/software-engineering/index.md
     - Systems: knowledge/technology/systems/index.md
-  - Analytical Frameworks:
-    - analytical-frameworks/index.md
-    - Game Theory: analytical-frameworks/game-theory/index.md
-    - Rational Choice Theory: analytical-frameworks/rational-choice-theory/index.md
-    - Decision Theory: analytical-frameworks/decision-theory/index.md
-    - Conflict Resolution: analytical-frameworks/conflict-resolution/index.md
 - Reference:
   - Cheatsheets: reference/cheatsheets/index.md
