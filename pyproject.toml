@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "feedparser>=6.0.12",
     "mkdocs-git-revision-date-localized-plugin>=1.5.3",
     "mkdocs-glightbox>=0.5.2",
     "mkdocs-material>=9.7.7",
@@ -26,6 +27,7 @@ dev = [
 new-note = "scripts.new_note:main"
 build-nav = "scripts.build_nav:main"
 init-categories = "scripts.init_categories:main"
+update-news = "scripts.update_news:main"
 
 [build-system]
 requires = ["hatchling"]

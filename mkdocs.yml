@@ -16,7 +16,6 @@ theme:
   - navigation.indexes
   - navigation.top
   - navigation.tracking
-  - navigation.prune
   - search.highlight
   - search.share
   - content.code.copy
@@ -58,15 +57,13 @@ edit_uri: edit/main/docs/
 nav:
 - Home: index.md
 - Dashboard: dashboard/index.md
-- Intelligence: 
-  - intelligence/index.md
+- Intelligence:
   - Economic: intelligence/economic/index.md
   - Financial: intelligence/financial/index.md
   - Geopolitical: intelligence/geopolitical/index.md
   - Scientific: intelligence/scientific/index.md
   - Technology: intelligence/technology/index.md
 - Learning:
-  - learning/index.md
   - Economics: learning/economics/index.md
   - Mathematics: learning/mathematics/index.md
   - Programming: learning/programming/index.md
@@ -74,24 +71,24 @@ nav:
   - Statistics: learning/statistics/index.md
   - Writing: learning/writing/index.md
 - Notes:
-  - notes/index.md
   - Daily Notes: notes/daily-notes/index.md
   - Reading Notes: notes/reading-notes/index.md
   - Research Log: notes/research-log/index.md
   - Weekly Reviews: notes/weekly-reviews/index.md
 - Projects: projects/index.md
 - Research:
-  - research/index.md
   - Analysis: research/analysis/index.md
   - Literature: research/literature/index.md
   - Methods: research/methods/index.md
   - Writing: research/writing/index.md
 - Knowledge:
-  - knowledge/index.md
+  - Analytical Frameworks:
+    - Game Theory: knowledge/analytical-frameworks/game-theory/index.md
+    - Rational Choice Theory: knowledge/analytical-frameworks/rational-choice-theory/index.md
+    - Decision Theory: knowledge/analytical-frameworks/decision-theory/index.md
+    - Conflict Resolution: knowledge/analytical-frameworks/conflict-resolution/index.md
   - Foundations:
-    - knowledge/foundations/index.md
     - Mathematics:
-      - knowledge/foundations/mathematics/index.md
       - Applied Mathematics: knowledge/foundations/mathematics/applied-mathematics/index.md
       - Calculus: knowledge/foundations/mathematics/calculus/index.md
       - Differential Equations: knowledge/foundations/mathematics/differential-equations/index.md
@@ -105,42 +102,30 @@ nav:
     - Logic: knowledge/foundations/logic/index.md
     - Philosophy: knowledge/foundations/philosophy/index.md
     - Systems Thinking: knowledge/foundations/systems-thinking/index.md
-  - Analytical Frameworks:
-    - knowledge/analytical-frameworks/index.md
-    - Game Theory: knowledge/analytical-frameworks/game-theory/index.md
-    - Rational Choice Theory: knowledge/analytical-frameworks/rational-choice-theory/index.md
-    - Decision Theory: knowledge/analytical-frameworks/decision-theory/index.md
-    - Conflict Resolution: knowledge/analytical-frameworks/conflict-resolution/index.md
   - Politics:
-    - knowledge/politics/index.md
     - Comparative Politics: knowledge/politics/comparative-politics/index.md
     - Governance: knowledge/politics/governance/index.md
     - Institutions: knowledge/politics/institutions/index.md
     - Political Theory: knowledge/politics/political-theory/index.md
     - Public Policy: knowledge/politics/public-policy/index.md
   - Economics:
-    - knowledge/economics/index.md
     - Macro: knowledge/economics/macro/index.md
     - Micro: knowledge/economics/micro/index.md
     - Monetary Policy: knowledge/economics/monetary-policy/index.md
     - Political Economy: knowledge/economics/political-economy/index.md
     - Trade: knowledge/economics/trade/index.md
   - Finance:
-    - knowledge/finance/index.md
     - Macro: knowledge/finance/macro/index.md
     - Markets: knowledge/finance/markets/index.md
     - Quantitative: knowledge/finance/quantitative/index.md
     - Risk: knowledge/finance/risk/index.md
   - Geopolitics:
-    - knowledge/geopolitics/index.md
     - Energy Security: knowledge/geopolitics/energy-security/index.md
     - Geography: knowledge/geopolitics/geography/index.md
     - Maritime Power: knowledge/geopolitics/maritime-power/index.md
     - Trade Routes: knowledge/geopolitics/trade-routes/index.md
   - International Relations:
-    - knowledge/international-relations/index.md
     - Security Studies:
-      - knowledge/international-relations/security-studies/index.md
       - Nuclear Strategy: knowledge/international-relations/security-studies/nuclear-strategy/index.md
       - Deterrence Theory: knowledge/international-relations/security-studies/deterrence-theory/index.md
       - Military Strategy: knowledge/international-relations/security-studies/military-strategy/index.md
@@ -154,7 +139,6 @@ nav:
     - International Organizations: knowledge/international-relations/international-organizations/index.md
     - Theories: knowledge/international-relations/theories/index.md
   - Technology:
-    - knowledge/technology/index.md
     - Data: knowledge/technology/data/index.md
     - Programming: knowledge/technology/programming/index.md
     - Software Engineering: knowledge/technology/software-engineering/index.md
