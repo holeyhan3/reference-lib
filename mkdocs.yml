@@ -56,11 +56,7 @@ markdown_extensions:
 edit_uri: edit/main/docs/
 nav:
 - Home: index.md
-- Analytical Frameworks:
-  - Game Theory: analytical-frameworks/game-theory/index.md
-  - Rational Choice Theory: analytical-frameworks/rational-choice-theory/index.md
-  - Decision Theory: analytical-frameworks/decision-theory/index.md
-  - Conflict Resolution: analytical-frameworks/conflict-resolution/index.md
+
 - Dashboard: dashboard/index.md
 - Intelligence:
   - Economic: intelligence/economic/index.md
@@ -68,6 +64,24 @@ nav:
   - Geopolitical: intelligence/geopolitical/index.md
   - Scientific: intelligence/scientific/index.md
   - Technology: intelligence/technology/index.md
+- Learning:
+  - Economics: learning/economics/index.md
+  - Mathematics: learning/mathematics/index.md
+  - Programming: learning/programming/index.md
+  - Research Methods: learning/research-methods/index.md
+  - Statistics: learning/statistics/index.md
+  - Writing: learning/writing/index.md
+- Notes:
+  - Daily Notes: notes/daily-notes/index.md
+  - Reading Notes: notes/reading-notes/index.md
+  - Research Log: notes/research-log/index.md
+  - Weekly Reviews: notes/weekly-reviews/index.md
+- Projects: projects/index.md
+- Research:
+  - Analysis: research/analysis/index.md
+  - Literature: research/literature/index.md
+  - Methods: research/methods/index.md
+  - Writing: research/writing/index.md
 - Knowledge:
   - Foundations:
     - Mathematics:
@@ -125,23 +139,10 @@ nav:
     - Programming: knowledge/technology/programming/index.md
     - Software Engineering: knowledge/technology/software-engineering/index.md
     - Systems: knowledge/technology/systems/index.md
-- Learning:
-  - Economics: learning/economics/index.md
-  - Mathematics: learning/mathematics/index.md
-  - Programming: learning/programming/index.md
-  - Research Methods: learning/research-methods/index.md
-  - Statistics: learning/statistics/index.md
-  - Writing: learning/writing/index.md
-- Notes:
-  - Daily Notes: notes/daily-notes/index.md
-  - Reading Notes: notes/reading-notes/index.md
-  - Research Log: notes/research-log/index.md
-  - Weekly Reviews: notes/weekly-reviews/index.md
-- Projects: projects/index.md
+  - Analytical Frameworks:
+    - Game Theory: analytical-frameworks/game-theory/index.md
+    - Rational Choice Theory: analytical-frameworks/rational-choice-theory/index.md
+    - Decision Theory: analytical-frameworks/decision-theory/index.md
+    - Conflict Resolution: analytical-frameworks/conflict-resolution/index.md
 - Reference:
   - Cheatsheets: reference/cheatsheets/index.md
-- Research:
-  - Analysis: research/analysis/index.md
-  - Literature: research/literature/index.md
-  - Methods: research/methods/index.md
-  - Writing: research/writing/index.md
