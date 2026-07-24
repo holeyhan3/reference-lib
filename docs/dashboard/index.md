@@ -9,6 +9,6 @@ Latest world news:
 
 [Open News Dashboard](news.md)
 
-[Open News Dashboard](markets.md)
+[Open Markets Dashboard](markets.md)
 
-[Open News Dashboard](events.md)
+[Open Events Dashboard](events.md)
