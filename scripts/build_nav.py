@@ -6,7 +6,6 @@ import yaml
 from scripts.utils.discovery import discover_categories
 from scripts.utils.paths import DOCS
 
-
 BASE_CONFIG = Path("mkdocs.base.yml")
 MKDOCS = Path("mkdocs.yml")
 
@@ -21,7 +20,10 @@ def build_nav_tree(
     Convert discovered category tree into MkDocs nav format.
 
     Categories with children become sections.
-    Category index.md files become landing pages.
+    Their index.md files act as landing pages
+    through navigation.indexes.
+
+    Leaf categories become direct pages.
     """
 
     nav: list[NavEntry] = []
@@ -45,23 +47,9 @@ def build_nav_tree(
         # Category with children
         if children:
 
-            items: list[Any] = []
-
-            # Add category landing page first
-            if path:
-
-                items.append(
-                    f"{path}/index.md"
-                )
-
-            # Add child categories
-            items.extend(
-                build_nav_tree(children)
-            )
-
             nav.append(
                 {
-                    title: items
+                    title: build_nav_tree(children)
                 }
             )
 

@@ -10,6 +10,7 @@ IGNORE = {
     "site",
     ".git",
     "__pycache__",
+    "stylesheets",
 }
 
 
