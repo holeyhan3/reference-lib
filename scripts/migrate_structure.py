@@ -1,74 +1,105 @@
-from pathlib import Path
 import shutil
-
+from pathlib import Path
 
 DOCS = Path("docs")
 
 
+# Existing folders -> new locations
 MOVES = {
-    # source : destination
-
-    # Analytical frameworks
-    "international-relations/theories/game-theory":
-        "analytical-frameworks/game-theory",
-
-    "international-relations/theories/rational-choice-theory":
-        "analytical-frameworks/rational-choice-theory",
-
-    "international-relations/theories/decision-theory":
-        "analytical-frameworks/decision-theory",
-
-    "international-relations/security-studies/conflict-resolution":
-        "analytical-frameworks/conflict-resolution",
+    "foundations": "knowledge/foundations",
+    "economics": "knowledge/economics",
+    "finance": "knowledge/finance",
+    "geopolitics": "knowledge/geopolitics",
+    "international-relations": "knowledge/international-relations",
+    "politics": "knowledge/politics",
+    "technology": "knowledge/technology",
 }
 
 
-def move_category(
-    source: str,
-    destination: str,
+# New learning structure
+LEARNING = [
+    "learning",
+    "learning/mathematics",
+    "learning/programming",
+    "learning/statistics",
+    "learning/economics",
+    "learning/research-methods",
+    "learning/writing",
+]
+
+
+def move_directory(
+    source: Path,
+    destination: Path,
 ):
     """
-    Move category folder while preserving contents.
+    Move directory while preserving contents.
     """
 
-    src = DOCS / source
-    dst = DOCS / destination
-
-    if not src.exists():
-        print(f"SKIP missing: {src}")
+    if not source.exists():
+        print(f"SKIP missing: {source}")
         return
 
-    if dst.exists():
-        raise FileExistsError(
-            f"Destination already exists: {dst}"
+    if destination.exists():
+        print(
+            f"SKIP exists: {destination}"
         )
+        return
 
-    dst.parent.mkdir(
+    destination.parent.mkdir(
         parents=True,
         exist_ok=True,
     )
 
     shutil.move(
-        str(src),
-        str(dst),
+        str(source),
+        str(destination),
     )
 
     print(
-        f"Moved {src} -> {dst}"
+        f"MOVED {source} -> {destination}"
     )
 
 
-def main():
+def create_learning_structure():
+    """
+    Create empty learning hierarchy.
+    """
 
-    print(
-        "Starting documentation migration..."
-    )
+    for folder in LEARNING:
 
-    for src, dst in MOVES.items():
-        move_category(
-            src,
-            dst,
+        path = DOCS / folder
+
+        if path.exists():
+            print(
+                f"Exists: {path}"
+            )
+            continue
+
+        path.mkdir(
+            parents=True,
+            exist_ok=True,
         )
+
+        print(
+            f"Created: {path}"
+        )
+
+
+def migrate():
+
+    print(
+        "Starting knowledge migration..."
+    )
+
+    for old, new in MOVES.items():
+
+        move_directory(
+            DOCS / old,
+            DOCS / new,
+        )
+
+    create_learning_structure()
 
     print(
         "Migration complete."
@@ -76,4 +107,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    migrate()

@@ -82,6 +82,7 @@ nav:
   - Institutions: politics/institutions/index.md
   - Political Theory: politics/political-theory/index.md
   - Public Policy: politics/public-policy/index.md
+- Dashboard: dashboard/index.md
 - Economics:
   - Macro: economics/macro/index.md
   - Micro: economics/micro/index.md
@@ -96,19 +97,32 @@ nav:
 - Geopolitics:
   - Energy Security: geopolitics/energy-security/index.md
   - Geography: geopolitics/geography/index.md
-  - Great Power Competition: geopolitics/great-power-competition/index.md
   - Maritime Power: geopolitics/maritime-power/index.md
   - Trade Routes: geopolitics/trade-routes/index.md
+- Intelligence:
+  - Economic: intelligence/economic/index.md
+  - Financial: intelligence/financial/index.md
+  - Geopolitical: intelligence/geopolitical/index.md
+  - Technology: intelligence/technology/index.md
 - International Relations:
   - Security Studies:
     - Nuclear Strategy: international-relations/security-studies/nuclear-strategy/index.md
     - Deterrence Theory: international-relations/security-studies/deterrence-theory/index.md
+    - Military Strategy: international-relations/security-studies/military-strategy/index.md
     - Arms Control: international-relations/security-studies/arms-control/index.md
+    - Intelligence Studies: international-relations/security-studies/intelligence-studies/index.md
+    - Cyber Conflict: international-relations/security-studies/cyber-conflict/index.md
     - Nuclear Proliferation: international-relations/security-studies/proliferation/index.md
     - Escalation Management: international-relations/security-studies/escalation-management/index.md
   - Diplomacy: international-relations/diplomacy/index.md
+  - Great Power Competition: international-relations/great-power-competition/index.md
   - International Organizations: international-relations/international-organizations/index.md
   - Theories: international-relations/theories/index.md
+- Notes:
+  - Daily Notes: notes/daily-notes/index.md
+  - Reading Notes: notes/reading-notes/index.md
+  - Research Log: notes/research-log/index.md
+  - Weekly Reviews: notes/weekly-reviews/index.md
 - Projects: projects/index.md
 - Reference:
   - Cheatsheets: reference/cheatsheets/index.md
