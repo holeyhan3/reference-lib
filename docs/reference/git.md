@@ -22,7 +22,7 @@ That's all you need to keep the repository synchronized.
 
 ------------------------------------------------------------
 
-# 2. Publish the Documentation
+# 2. Git Pages - Publish the Documentation 
 
 There are two common approaches.
 
