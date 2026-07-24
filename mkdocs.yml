@@ -16,6 +16,7 @@ theme:
   - navigation.indexes
   - navigation.top
   - navigation.tracking
+  - navigation.prune
   - search.highlight
   - search.share
   - content.code.copy
@@ -56,7 +57,6 @@ markdown_extensions:
 edit_uri: edit/main/docs/
 nav:
 - Home: index.md
-
 - Dashboard: dashboard/index.md
 - Intelligence:
   - Economic: intelligence/economic/index.md
@@ -85,6 +85,7 @@ nav:
 - Knowledge:
   - Foundations:
     - Mathematics:
+      - knowledge/foundations/mathematics/index.md
       - Applied Mathematics: knowledge/foundations/mathematics/applied-mathematics/index.md
       - Calculus: knowledge/foundations/mathematics/calculus/index.md
       - Differential Equations: knowledge/foundations/mathematics/differential-equations/index.md
@@ -122,6 +123,7 @@ nav:
     - Trade Routes: knowledge/geopolitics/trade-routes/index.md
   - International Relations:
     - Security Studies:
+      - knowledge/international-relations/security-studies/index.md
       - Nuclear Strategy: knowledge/international-relations/security-studies/nuclear-strategy/index.md
       - Deterrence Theory: knowledge/international-relations/security-studies/deterrence-theory/index.md
       - Military Strategy: knowledge/international-relations/security-studies/military-strategy/index.md
@@ -140,6 +142,7 @@ nav:
     - Software Engineering: knowledge/technology/software-engineering/index.md
     - Systems: knowledge/technology/systems/index.md
   - Analytical Frameworks:
+    - analytical-frameworks/index.md
     - Game Theory: analytical-frameworks/game-theory/index.md
     - Rational Choice Theory: analytical-frameworks/rational-choice-theory/index.md
     - Decision Theory: analytical-frameworks/decision-theory/index.md
