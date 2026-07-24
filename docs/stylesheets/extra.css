@@ -14,7 +14,80 @@
     font-size: 0.9rem;
 }
 
+
+/* Category landing pages */
+
+.category-header {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Large topic titles */
+
+.md-typeset h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+
+/* Topic cards */
+
+.topic-card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    transition: transform .2s ease;
+}
+
+.topic-card:hover {
+    transform: translateY(-3px);
+}
+
 /* Sidebar width */
 .md-sidebar {
-    width: 320px;
+    width: 300px;
+}
+
+/* Sidebar navigation text */
+.md-nav__link {
+    font-size: 0.9rem;
+}
+
+/* Top-level categories */
+.md-nav__item--section > .md-nav__link {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* Nested categories */
+.md-nav__item .md-nav__item .md-nav__link {
+    font-size: 0.85rem;
+}
+
+/* Hover effect */
+.md-nav__link:hover {
+    text-decoration: none;
+}
+
+/* Active page */
+.md-nav__link--active {
+    font-weight: 700;
+}
+
+/* Level 1: Domains */
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+/* Level 2 */
+.md-nav__item .md-nav__item > .md-nav__link {
+    font-weight: 500;
+}
+
+/* Level 3+ */
+.md-nav__item .md-nav__item .md-nav__item > .md-nav__link {
+    font-weight: 400;
+    font-size: 0.85rem;
 }

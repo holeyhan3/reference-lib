@@ -1,16 +1,37 @@
 # Geopolitics
 
-The study of international power, states, resources, and strategic competition.
+<div class="category-header">
 
-## Major Areas
+The study of international power, states,
+resources, geography, and strategic competition.
 
-- Energy security
-- Maritime power
-- Great power competition
-- Trade routes
+</div>
 
-## Related Topics
 
-- International relations
-- Political economy
-- Military strategy
+## Topics
+
+<div class="grid cards" markdown>
+
+-   :material-oil:
+
+    ## Energy Security
+
+    Oil, gas, pipelines, and strategic resources.
+
+-   :material-earth:
+
+    ## Geography
+
+    Physical geography and strategic locations.
+
+-   :material-account-group:
+
+    ## Great Power Competition
+
+    Strategic rivalry between major states.
+
+</div>
+
+## Notes
+
+Add research notes and references here.
