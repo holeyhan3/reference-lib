@@ -3,19 +3,13 @@ from pathlib import Path
 import yaml
 
 from scripts.utils.discovery import discover_categories
-from scripts.utils.types import CategoryNode
+from scripts.utils.paths import DOCS
 
-DOCS = Path("docs")
+BASE_CONFIG = Path("mkdocs.base.yml")
 MKDOCS = Path("mkdocs.yml")
 
 
-def build_nav_tree(
-        tree: dict[str, CategoryNode]
-):
-    """
-    Convert discovered category tree
-    into MkDocs nav format.
-    """
+def build_nav_tree(tree):
 
     nav = []
 
@@ -26,14 +20,14 @@ def build_nav_tree(
             name.replace("-", " ").title(),
         )
 
+        section = []
+
         path = node.get("path")
 
         children = node.get(
             "children",
-            {}
+            {},
         )
-
-        section = []
 
         if path:
 
@@ -65,7 +59,7 @@ def update_mkdocs():
     )
 
     with open(
-        MKDOCS,
+        BASE_CONFIG,
         "r",
         encoding="utf-8",
     ) as f:
@@ -95,9 +89,8 @@ def update_mkdocs():
 
 def main():
     update_mkdocs()
-
     print(
-        "mkdocs.yml navigation updated."
+        "mkdocs.yml generated."
     )
 
 

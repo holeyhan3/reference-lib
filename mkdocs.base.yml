@@ -1,0 +1,46 @@
+site_name: Reference Library
+site_url: https://holeyhan3.github.io/reference-lib/
+
+site_description: Personal knowledge base and study notes
+site_author: Hans
+
+repo_name: reference-lib
+repo_url: https://github.com/holeyhan3/reference-lib
+
+docs_dir: docs
+site_dir: site
+
+use_directory_urls: true
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+plugins:
+  - search
+  - roamlinks
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - toc:
+      permalink: true

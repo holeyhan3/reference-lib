@@ -32,8 +32,6 @@ jobs:
 
       - run: uv sync
 
-      - run: uv run init-categories
-
       - run: uv run build-nav
 
       - run: uv run mkdocs build
