@@ -15,14 +15,14 @@ DISPLAY_TIMEZONE = ZoneInfo(
 
 
 FEEDS = {
-    "Reuters World": {
-        "url": "https://feeds.reuters.com/reuters/worldNews",
-        "category": "Geopolitics",
+    "International Crisis Group": {
+        "url": "https://www.crisisgroup.org/rss.xml",
+        "category": "General",
     },
 
-    "BBC World": {
-        "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "category": "World",
+    "Crisis Watch": {
+        "url": "https://www.crisisgroup.org/rss/crisiswatch.xml",
+        "category": "Crisis Watch",
     },
 
     "Foreign Policy": {

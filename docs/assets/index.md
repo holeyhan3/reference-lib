@@ -1,3 +1,0 @@
-# Assets
-
-Overview of Assets.
